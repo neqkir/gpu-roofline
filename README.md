@@ -36,5 +36,5 @@ Float Size = (SQ_INSTS_VALU + SQ_INSTS_SALU)* 64
 FLOPs = Float size/executed time
 FLOP/byte = Float size/(Memory size*1024)
 
-(4) Write a python script for building roofline model, inspired from `roofline.py`
+**(4) Write a python script for building roofline model** inspired from `roofline.py`
 
