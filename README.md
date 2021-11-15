@@ -14,13 +14,19 @@ Good GPU performance is when
 
 We use ROCm rocprof profiler
 
-(1) Write an input file for rocprof, an example is given by rocprof-input-file.txt
+**(1) Write an input file for rocprof** 
+
+An example is given by rocprof-input-file.txt
 
 Documentation for rocprof data collection https://github.com/ROCm-Developer-Tools/rocprofiler/blob/amd-master/doc/rocprof.md
 
-(2) Run application adding rocprof command `rocprof -i rocprof-input-file.txt --timestamp on python3 shakespeare-text-gen.py`
+**(2) Run application adding rocprof call**
 
-(3) Rearrange the rocprof .csv output file extracting the relevant values 
+`rocprof -i rocprof-input-file.txt --timestamp on python3 shakespeare-text-gen.py`
+
+**(3) Compute relevant values**
+
+Rearrange the rocprof .csv output file extracting the relevant values
 
 Compute 
 
