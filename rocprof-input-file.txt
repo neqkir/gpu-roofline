@@ -1,0 +1,18 @@
+# Perf counters group 1
+
+# FetchSize : The total kilobytes fetched from the video memory. 
+# This is measured with all extra fetches and any cache or memory effects taken into account.
+pmc : FetchSize SQ_INSTS_VALU
+
+# Perf counters group 2
+
+# WriteSize : The total kilobytes written to the video memory. 
+# This is measured with all extra fetches and any cache or memory effects taken into account.
+pmc : WriteSize SQ_INSTS_SALU
+
+# Filter by dispatches range, GPU index and kernel names
+# supported range formats: "3:9", "3:", "3"
+
+range:
+gpu: 0, 1
+kernel: 
