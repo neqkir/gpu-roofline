@@ -31,6 +31,7 @@ Rearrange the rocprof .csv output file extracting the relevant values
 Compute 
 
 `Memory size (KB) = FETCH_SIZE + WRITE_SIZE`
+
 `Float Size = (SQ_INSTS_VALU + SQ_INSTS_SALU)* 64`
 
 FLOPs = Float size/executed time
