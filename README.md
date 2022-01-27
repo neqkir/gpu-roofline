@@ -1,4 +1,4 @@
-### amd_gpu_roofline
+## Around roofline models
 
 #### Roofline model for AMD MI100 GPUs
 
